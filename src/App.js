@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './input.css';
 import Home from './components/Home'
 import About from './components/About'
 import Navbar from './components/Navbar'
@@ -11,15 +11,11 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <main className="text-tan-300 bg-brown-800 body-font">
-    <Navbar/>
-    <Home/>
-    <About/>
-    <Portfolio/>
-    <Contact/>
-    <Footer/>
+    <div className="App">
+    <Navbar />
+    <Home />
 
-  </main>
+  </div>
   );
   }
 

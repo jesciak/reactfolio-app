@@ -4,6 +4,8 @@ import React from 'react';
 export default function Navbar() {
     const linkStyle = { border: '2px tan', padding: '5px' };
     return (
+
+        
         <nav className="main-header-menu">
             <section style={{
                 display: 'flex',
@@ -14,16 +16,16 @@ export default function Navbar() {
             }}
             >
                 <div style={linkStyle}>
-                    <a href="#">Home</a>
+                    <a href="/">Home</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href="#">About</a>
+                    <a href="/about">About</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href="#">Portfolio</a>
+                    <a href="/portfolio">Portfolio</a>
                 </div>
                 <div style={linkStyle}>
-                    <a href="#">Contact</a>
+                    <a href="/contact">Contact</a>
                 </div>
             </section>
         </nav>

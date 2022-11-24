@@ -1,5 +1,11 @@
 import React from 'react';
 
 export default function Contact(){
-    return <h1>Contact</h1>
+    return (
+    <>
+    <div className="home">
+<h1></h1>
+</div>
+</>
+    )
 }
